@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Testing Project" allow-return-values="true" verbose="1" parallel="false" >
+    <test name="All Test">
+        <classes>
+            <class name="Tests.T01_Registration"/>
+            <class name="Tests.T02_Login"/>
+            <class name="Tests.T02_Login"/>
+            <class name="Tests.T03_ForgetPassword"/>
+            <class name="Tests.T04_SortBy"/>
+            <class name="Tests.T05_SonyTest"/>
+            <class name="Tests.T06_CompareTest"/>
+            <class name="Tests.T07_ShareWishListTest"/>
+            <class name="Tests.T08_PurchaseTest"/>
+            <class name="Tests.T09_SaveOrderTest"/>
+            <class name="Tests.T10_ReorderTest"/>
+            <class name="Tests.T11_SearchTest"/>
+            <class name="Tests.T12_DiscountTest"/>
+        </classes>
+    </test>
+</suite>
